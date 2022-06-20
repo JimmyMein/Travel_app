@@ -1,32 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Travel App</title>
+  <title>✈️ Have A Nice Trip</title>
 
-  <script src="/js/initialize.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="/css/itinerary.css">
+  <link rel="stylesheet" href="/css/trip.css">
   <script defer src="/js/components/add_trip.js"></script>
   <script defer src="/js/components/trip_list.js"></script>
   <script defer src="/js/components/sign_up.js"></script>
   <script defer src="/js/components/login.js"></script>
+  <script defer src="/js/components/itinerary_list.js"></script>
+  <script defer src="/js/components/add_itinerary.js"></script>
+  <script defer src="/js/components/header.js"></script>
+  <script defer src="/js/initialize.js"></script>
 
 </head>
-<body>
-  <h1>Travel App</h1>
 
-  <nav class="header-nav">
-    <ul>
-      <li>Show Trips</li>
-      <li>Create Trip</li>
-      <li>Sign Up</li>
-      <li>Log in</li>
-    </ul>
-  </nav>
+<body>
+  <header>
+    <img class="logo"
+      src="https://img.freepik.com/free-vector/flat-design-world-tourism-day-style_23-2148639397.jpg?w=826&t=st=1654755301~exp=1654755901~hmac=536ae70da0b5d4bcfd5b97e7f04c96c0ec6643505f4853b3472a943f313d1a52"
+      alt=“”>
+    <h1 class="logo-title">Have A Nice Trip</h1>
+  </header>
+
+
+  <nav class="header-nav"></nav>
 
   <main id="page" class="content"></main>
-
-
+  <section id="error-message"></section>
 </body>
+
 </html>
